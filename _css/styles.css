@@ -1,0 +1,135 @@
+/*
+#2B2B2B - Charleston Green
+#EA9E3A - Tiger's Eye
+#EFF4AB - Pale Goldenrod
+#21252D - Dark Gunmetal
+*/
+
+/*===================== Global Styles =====================*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    margin: 0;
+    color: #C7D3BF;
+    background: #21252D;
+    font-family: 'Zilla Slab', serif;
+    font-size: 17px;
+    
+}
+main {
+    padding-top: 20px;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+tr:nth-child(odd) {
+    background-color: #2B2B2B;
+}
+h1, h2, h3, h4 {
+    font-family: 'Lora', serif;
+}
+
+h3 {
+    border-bottom: 2px solid #EA9E3A;
+    padding-bottom: 4px;
+}
+/*=====================  Header and Footer =====================*/
+/* Header */
+header {
+    text-align: center;
+    min-height: 600px;
+}
+/* Navigation */
+nav {
+    text-align: center;
+    background: #2B2B2B;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: -4px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #C7D3BF;
+    padding: 15px;
+}
+nav a:hover {
+    background: #C7D3BF;
+    color: #21252D;
+}
+
+#home {
+    background: url(../_images/profile-banner.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #2B2B2B;
+/*    min-height: 125px;*/
+}
+footer a {
+    display: inline-block;
+    text-decoration: none;
+/*    border: 5px solid black;*/
+    padding: 10px;
+    color: #C7D3BF;
+    margin-bottom: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+    padding-bottom: 3px;
+}
+footer h2 {
+    margin: 10px;
+}
+
+/*===================== About Me =====================*/
+.profile-img {
+    width: 200px;
+    border-radius: 20%;
+}
+.about {
+}
+
+/*===================== Projects =====================*/
+.projects {
+}
+
+/*===================== Skills =====================*/
+.skills {
+}
+
+/*===================== Education =====================*/
+.education {
+}
+/*===================== Contacts =====================*/
+
+/*===================== Media Queries =====================*/
+@media (min-width: 900px)
+{
+   .col-left {
+        float: left;
+        width: 30%;
+        min-height: 100px;
+    }
+}
+    .col-right {
+        float: left;
+        width: 70%;
+        min-height: 100px;
+    } 
+}
